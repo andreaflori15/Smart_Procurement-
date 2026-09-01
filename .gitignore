@@ -1,0 +1,6 @@
+# Duplicados de trabajo en la raíz.
+# Las copias que usa la app están en SmartProcurement/Frontend/wwwroot/img y Backend/Data.
+/*.jpg
+/*.jpeg
+/*.png
+/*.xlsx

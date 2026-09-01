@@ -1,0 +1,6 @@
+bin/
+obj/
+.vs/
+*.user
+Frontend/wwwroot/uploads/cotizaciones/**
+!Frontend/wwwroot/uploads/cotizaciones/.gitkeep

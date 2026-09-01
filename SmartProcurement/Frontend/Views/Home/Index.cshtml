@@ -1,0 +1,76 @@
+@{
+    ViewData["Title"] = "Inicio";
+    ViewData["Subtitle"] = "Elige un perfil para continuar";
+}
+
+<section class="home-landing" aria-label="Inicio SmartProcurement IA">
+    <div class="home-hero">
+        <img
+            class="home-hero-robot"
+            src="~/img/Robot_Procurement.png"
+            asp-append-version="true"
+            alt="SmartProcurement IA" />
+
+        <div class="home-hero-card">
+            <h2>¡Hola, soy <span>SmartProcurement IA</span></h2>
+            <p>
+                Soy un agente inteligente corporativo que te ayuda a analizar y gestionar información de compras
+                de forma rápida y confiable desde SAP y la base de conocimiento. Facilito el análisis de proveedores,
+                precios, volúmenes y tiempos de compra para apoyar una mejor toma de decisiones.
+            </p>
+        </div>
+    </div>
+
+    <div class="home-profiles" role="list">
+        <article class="home-profile" role="listitem">
+            <a class="home-profile-main" asp-controller="Consulta" asp-action="Index">
+                <span class="home-profile-icon-wrap">
+                    <img class="home-profile-icon" src="~/img/Usuario_perfil.png" asp-append-version="true" alt="" />
+                </span>
+                <div class="home-profile-copy">
+                    <h3>Perfil de Usuario</h3>
+                    <p>Consulta y analiza de forma inteligente la información de compras, proveedores, precios y comportamiento de las adquisiciones para identificar oportunidades y situaciones críticas.</p>
+                </div>
+            </a>
+            <button type="button" class="home-help" data-help="Consulta y analiza de forma inteligente la información de compras, proveedores, precios y comportamiento de las adquisiciones para identificar oportunidades y situaciones críticas." aria-label="Ayuda Perfil de Usuario" title="Ayuda">?</button>
+        </article>
+
+        <article class="home-profile" role="listitem">
+            <a class="home-profile-main" asp-controller="Comprador" asp-action="Index">
+                <span class="home-profile-icon-wrap">
+                    <img class="home-profile-icon" src="~/img/Comprador_pefil.jpg" asp-append-version="true" alt="" />
+                </span>
+                <div class="home-profile-copy">
+                    <h3>Perfil Comprador</h3>
+                    <p>Analiza y prioriza las SOLPED según su nivel de criticidad y tiempo de atención, identificando materiales críticos, solicitudes pendientes y situaciones que requieren atención para mejorar la gestión y oportunidad de las compras.</p>
+                </div>
+            </a>
+            <button type="button" class="home-help" data-help="Analiza y prioriza las SOLPED según su nivel de criticidad y tiempo de atención, identificando materiales críticos, solicitudes pendientes y situaciones que requieren atención para mejorar la gestión y oportunidad de las compras." aria-label="Ayuda Perfil Comprador" title="Ayuda">?</button>
+        </article>
+
+        <article class="home-profile" role="listitem">
+            <a class="home-profile-main" asp-controller="JefeCompra" asp-action="Index">
+                <span class="home-profile-icon-wrap">
+                    <img class="home-profile-icon" src="~/img/Jefe_compra_perfil.jpg" asp-append-version="true" alt="" />
+                </span>
+                <div class="home-profile-copy">
+                    <h3>Perfil Jefe de Compras</h3>
+                    <p>Obtén una visión integral de las SOLPED y su gestión, analizando tiempos de atención, solicitudes con y sin pedido, estados de atención y materiales críticos, para identificar desviaciones, cuellos de botella y oportunidades de mejora en la gestión de compras.</p>
+                </div>
+            </a>
+            <button type="button" class="home-help" data-help="Obtén una visión integral de las SOLPED y su gestión, analizando tiempos de atención, solicitudes con y sin pedido, estados de atención y materiales críticos, para identificar desviaciones, cuellos de botella y oportunidades de mejora en la gestión de compras." aria-label="Ayuda Perfil Jefe de Compras" title="Ayuda">?</button>
+        </article>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        document.querySelectorAll(".home-help").forEach((btn) => {
+            btn.addEventListener("click", (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                window.SP.toast(btn.getAttribute("data-help") || "Ayuda del perfil.");
+            });
+        });
+    </script>
+}

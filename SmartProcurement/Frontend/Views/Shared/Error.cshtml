@@ -1,0 +1,14 @@
+@model ErrorViewModel
+@{
+    ViewData["Title"] = "Algo salió mal";
+    ViewData["Subtitle"] = "Puedes volver al inicio e intentarlo de nuevo.";
+}
+
+<div class="panel">
+    <p>Ocurrió un error al mostrar esta página.</p>
+    @if (Model.ShowRequestId)
+    {
+        <p class="meta">Código: @Model.RequestId</p>
+    }
+    <p><a class="btn" asp-controller="Home" asp-action="Index">Volver al inicio</a></p>
+</div>

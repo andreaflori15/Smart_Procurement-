@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Consultar";
+    ViewData["Subtitle"] = "Puedes escribir como le hablarías a un colega.";
+}
+
+<div class="panel">
+    <p class="hint">Prueba con una SOLPED o un pedido. Datos de trazabilidad: <strong>3000000006</strong>, pedido <strong>7000001118</strong>.</p>
+
+    <label for="prompt">¿Qué quieres encontrar?</label>
+    <textarea id="prompt" placeholder="Ejemplo: necesito la solped 3000000006"></textarea>
+
+    <div class="chips">
+        <button type="button" class="chip" data-ejemplo="necesito la solped 3000000006">Buscar una SOLPED</button>
+        <button type="button" class="chip" data-ejemplo="quiero el pedido 7000001118">Buscar un pedido</button>
+        <button type="button" class="chip" data-ejemplo="quiero proveedores que contengan HYDRAULICA">Buscar proveedor</button>
+    </div>
+
+    <div class="actions">
+        <button type="button" class="btn" id="btnProcesar">Buscar</button>
+        <span class="meta" id="estado"></span>
+    </div>
+</div>
+
+<div class="panel" style="margin-top:16px;">
+    <h3 style="margin:0 0 8px;">Resultados</h3>
+    <div class="consulta-traza-wrap" id="trazaWrap">
+        <p class="empty" id="trazaVacio">Todavía no hay búsqueda. Escribe arriba y pulsa Buscar.</p>
+        <table class="consulta-traza is-hidden" id="tablaTraza">
+            <thead id="trazaHead"></thead>
+            <tbody id="trazaBody"></tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/consulta.js" asp-append-version="true"></script>
+}

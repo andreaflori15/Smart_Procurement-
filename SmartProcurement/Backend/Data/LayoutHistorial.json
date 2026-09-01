@@ -1,0 +1,2205 @@
+{
+  "Historial": [
+    {
+      "LayoutId": "analisis-solped",
+      "FechaGrabacion": "2026-08-13",
+      "TipoEsquema": "tablero-completo",
+      "Esquema": {
+        "porRango": [
+          {
+            "rango": "01 - 07 dias",
+            "count": 82,
+            "edad": "ok"
+          },
+          {
+            "rango": "08 - 14 dias",
+            "count": 58,
+            "edad": "mid"
+          },
+          {
+            "rango": "15 - 21 dias",
+            "count": 10,
+            "edad": "bad"
+          },
+          {
+            "rango": "22 dias a mas",
+            "count": 1,
+            "edad": "bad"
+          }
+        ],
+        "compradores": [
+          {
+            "nombre": "ARIANA ALVAREZ",
+            "total": 58,
+            "alDia": 30,
+            "media": 20,
+            "critica": 0
+          },
+          {
+            "nombre": "PATRICIA ALDAVES",
+            "total": 42,
+            "alDia": 18,
+            "media": 15,
+            "critica": 5
+          },
+          {
+            "nombre": "FLAVIO CHUQUILLANQ",
+            "total": 40,
+            "alDia": 22,
+            "media": 12,
+            "critica": 0
+          },
+          {
+            "nombre": "LJUBICA BARBA",
+            "total": 12,
+            "alDia": 8,
+            "media": 3,
+            "critica": 1
+          }
+        ],
+        "trazabilidad": [
+          {
+            "id": "cantidad",
+            "titulo": "SOLPED Cantidad",
+            "count": 155,
+            "filtro": "todas"
+          },
+          {
+            "id": "cotizados",
+            "titulo": "Cotizados",
+            "count": 38,
+            "filtro": "etapa:cotizados"
+          },
+          {
+            "id": "esperando",
+            "titulo": "Esperando cotizaci\u00F3n",
+            "count": 42,
+            "filtro": "etapa:esperando"
+          },
+          {
+            "id": "completo",
+            "titulo": "Completo",
+            "count": 28,
+            "filtro": "etapa:completo"
+          },
+          {
+            "id": "pedido",
+            "titulo": "Pedido generado",
+            "count": 42,
+            "filtro": "etapa:pedido"
+          }
+        ],
+        "sugerencias": [
+          "PATRICIA ALDAVES tiene 5 SOLPED cr\u00EDticas (22\u002B d\u00EDas). Priorizar seguimiento.",
+          "138 SOLPEDs agrupadas en 1 proveedor. Revisar licitaci\u00F3n.",
+          "9 SOLPEDs con contrato siguen pendientes. Correr pedido SAP.",
+          "Hay 42 SOLPEDs esperando cotizaci\u00F3n del proveedor."
+        ],
+        "criticas": [
+          {
+            "solped": "1000000052",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Completo",
+            "razon": "Gesti\u00F3n completa",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000666",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000667",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000668",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000669",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000670",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000671",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000672",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000673",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          }
+        ]
+      }
+    },
+    {
+      "LayoutId": "analisis-solped",
+      "FechaGrabacion": "2026-08-14",
+      "TipoEsquema": "tablero-completo",
+      "Esquema": {
+        "porRango": [
+          {
+            "rango": "01 - 07 dias",
+            "count": 83,
+            "edad": "ok"
+          },
+          {
+            "rango": "08 - 14 dias",
+            "count": 58,
+            "edad": "mid"
+          },
+          {
+            "rango": "15 - 21 dias",
+            "count": 10,
+            "edad": "bad"
+          },
+          {
+            "rango": "22 dias a mas",
+            "count": 1,
+            "edad": "bad"
+          }
+        ],
+        "compradores": [
+          {
+            "nombre": "ARIANA ALVAREZ",
+            "total": 59,
+            "alDia": 30,
+            "media": 20,
+            "critica": 0
+          },
+          {
+            "nombre": "PATRICIA ALDAVES",
+            "total": 43,
+            "alDia": 18,
+            "media": 15,
+            "critica": 5
+          },
+          {
+            "nombre": "FLAVIO CHUQUILLANQ",
+            "total": 41,
+            "alDia": 22,
+            "media": 12,
+            "critica": 0
+          },
+          {
+            "nombre": "LJUBICA BARBA",
+            "total": 12,
+            "alDia": 8,
+            "media": 3,
+            "critica": 1
+          }
+        ],
+        "trazabilidad": [
+          {
+            "id": "cantidad",
+            "titulo": "SOLPED Cantidad",
+            "count": 156,
+            "filtro": "todas"
+          },
+          {
+            "id": "cotizados",
+            "titulo": "Cotizados",
+            "count": 39,
+            "filtro": "etapa:cotizados"
+          },
+          {
+            "id": "esperando",
+            "titulo": "Esperando cotizaci\u00F3n",
+            "count": 42,
+            "filtro": "etapa:esperando"
+          },
+          {
+            "id": "completo",
+            "titulo": "Completo",
+            "count": 28,
+            "filtro": "etapa:completo"
+          },
+          {
+            "id": "pedido",
+            "titulo": "Pedido generado",
+            "count": 43,
+            "filtro": "etapa:pedido"
+          }
+        ],
+        "sugerencias": [
+          "PATRICIA ALDAVES tiene 5 SOLPED cr\u00EDticas (22\u002B d\u00EDas). Priorizar seguimiento.",
+          "138 SOLPEDs agrupadas en 1 proveedor. Revisar licitaci\u00F3n.",
+          "9 SOLPEDs con contrato siguen pendientes. Correr pedido SAP.",
+          "Hay 42 SOLPEDs esperando cotizaci\u00F3n del proveedor."
+        ],
+        "criticas": [
+          {
+            "solped": "1000000052",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Completo",
+            "razon": "Gesti\u00F3n completa",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000666",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000667",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000668",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000669",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000670",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000671",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000672",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000673",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          }
+        ]
+      }
+    },
+    {
+      "LayoutId": "analisis-solped",
+      "FechaGrabacion": "2026-08-15",
+      "TipoEsquema": "tablero-completo",
+      "Esquema": {
+        "porRango": [
+          {
+            "rango": "01 - 07 dias",
+            "count": 84,
+            "edad": "ok"
+          },
+          {
+            "rango": "08 - 14 dias",
+            "count": 58,
+            "edad": "mid"
+          },
+          {
+            "rango": "15 - 21 dias",
+            "count": 10,
+            "edad": "bad"
+          },
+          {
+            "rango": "22 dias a mas",
+            "count": 1,
+            "edad": "bad"
+          }
+        ],
+        "compradores": [
+          {
+            "nombre": "ARIANA ALVAREZ",
+            "total": 60,
+            "alDia": 31,
+            "media": 20,
+            "critica": 0
+          },
+          {
+            "nombre": "PATRICIA ALDAVES",
+            "total": 44,
+            "alDia": 18,
+            "media": 15,
+            "critica": 6
+          },
+          {
+            "nombre": "FLAVIO CHUQUILLANQ",
+            "total": 42,
+            "alDia": 22,
+            "media": 12,
+            "critica": 0
+          },
+          {
+            "nombre": "LJUBICA BARBA",
+            "total": 13,
+            "alDia": 8,
+            "media": 3,
+            "critica": 1
+          }
+        ],
+        "trazabilidad": [
+          {
+            "id": "cantidad",
+            "titulo": "SOLPED Cantidad",
+            "count": 157,
+            "filtro": "todas"
+          },
+          {
+            "id": "cotizados",
+            "titulo": "Cotizados",
+            "count": 40,
+            "filtro": "etapa:cotizados"
+          },
+          {
+            "id": "esperando",
+            "titulo": "Esperando cotizaci\u00F3n",
+            "count": 43,
+            "filtro": "etapa:esperando"
+          },
+          {
+            "id": "completo",
+            "titulo": "Completo",
+            "count": 28,
+            "filtro": "etapa:completo"
+          },
+          {
+            "id": "pedido",
+            "titulo": "Pedido generado",
+            "count": 44,
+            "filtro": "etapa:pedido"
+          }
+        ],
+        "sugerencias": [
+          "PATRICIA ALDAVES tiene 6 SOLPED cr\u00EDticas (22\u002B d\u00EDas). Priorizar seguimiento.",
+          "138 SOLPEDs agrupadas en 1 proveedor. Revisar licitaci\u00F3n.",
+          "9 SOLPEDs con contrato siguen pendientes. Correr pedido SAP.",
+          "Hay 43 SOLPEDs esperando cotizaci\u00F3n del proveedor."
+        ],
+        "criticas": [
+          {
+            "solped": "1000000052",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Completo",
+            "razon": "Gesti\u00F3n completa",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000666",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000667",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000668",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000669",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000670",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000671",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000672",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000673",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          }
+        ]
+      }
+    },
+    {
+      "LayoutId": "analisis-solped",
+      "FechaGrabacion": "2026-08-16",
+      "TipoEsquema": "tablero-completo",
+      "Esquema": {
+        "porRango": [
+          {
+            "rango": "01 - 07 dias",
+            "count": 85,
+            "edad": "ok"
+          },
+          {
+            "rango": "08 - 14 dias",
+            "count": 59,
+            "edad": "mid"
+          },
+          {
+            "rango": "15 - 21 dias",
+            "count": 10,
+            "edad": "bad"
+          },
+          {
+            "rango": "22 dias a mas",
+            "count": 1,
+            "edad": "bad"
+          }
+        ],
+        "compradores": [
+          {
+            "nombre": "ARIANA ALVAREZ",
+            "total": 61,
+            "alDia": 31,
+            "media": 20,
+            "critica": 0
+          },
+          {
+            "nombre": "PATRICIA ALDAVES",
+            "total": 45,
+            "alDia": 18,
+            "media": 16,
+            "critica": 6
+          },
+          {
+            "nombre": "FLAVIO CHUQUILLANQ",
+            "total": 43,
+            "alDia": 22,
+            "media": 12,
+            "critica": 0
+          },
+          {
+            "nombre": "LJUBICA BARBA",
+            "total": 13,
+            "alDia": 8,
+            "media": 3,
+            "critica": 1
+          }
+        ],
+        "trazabilidad": [
+          {
+            "id": "cantidad",
+            "titulo": "SOLPED Cantidad",
+            "count": 158,
+            "filtro": "todas"
+          },
+          {
+            "id": "cotizados",
+            "titulo": "Cotizados",
+            "count": 41,
+            "filtro": "etapa:cotizados"
+          },
+          {
+            "id": "esperando",
+            "titulo": "Esperando cotizaci\u00F3n",
+            "count": 44,
+            "filtro": "etapa:esperando"
+          },
+          {
+            "id": "completo",
+            "titulo": "Completo",
+            "count": 29,
+            "filtro": "etapa:completo"
+          },
+          {
+            "id": "pedido",
+            "titulo": "Pedido generado",
+            "count": 45,
+            "filtro": "etapa:pedido"
+          }
+        ],
+        "sugerencias": [
+          "PATRICIA ALDAVES tiene 6 SOLPED cr\u00EDticas (22\u002B d\u00EDas). Priorizar seguimiento.",
+          "138 SOLPEDs agrupadas en 1 proveedor. Revisar licitaci\u00F3n.",
+          "9 SOLPEDs con contrato siguen pendientes. Correr pedido SAP.",
+          "Hay 44 SOLPEDs esperando cotizaci\u00F3n del proveedor."
+        ],
+        "criticas": [
+          {
+            "solped": "1000000052",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Completo",
+            "razon": "Gesti\u00F3n completa",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000666",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000667",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000668",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000669",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000670",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000671",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000672",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000673",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          }
+        ]
+      }
+    },
+    {
+      "LayoutId": "analisis-solped",
+      "FechaGrabacion": "2026-08-17",
+      "TipoEsquema": "tablero-completo",
+      "Esquema": {
+        "porRango": [
+          {
+            "rango": "01 - 07 dias",
+            "count": 86,
+            "edad": "ok"
+          },
+          {
+            "rango": "08 - 14 dias",
+            "count": 60,
+            "edad": "mid"
+          },
+          {
+            "rango": "15 - 21 dias",
+            "count": 10,
+            "edad": "bad"
+          },
+          {
+            "rango": "22 dias a mas",
+            "count": 1,
+            "edad": "bad"
+          }
+        ],
+        "compradores": [
+          {
+            "nombre": "ARIANA ALVAREZ",
+            "total": 62,
+            "alDia": 32,
+            "media": 20,
+            "critica": 0
+          },
+          {
+            "nombre": "PATRICIA ALDAVES",
+            "total": 46,
+            "alDia": 18,
+            "media": 16,
+            "critica": 7
+          },
+          {
+            "nombre": "FLAVIO CHUQUILLANQ",
+            "total": 44,
+            "alDia": 22,
+            "media": 12,
+            "critica": 0
+          },
+          {
+            "nombre": "LJUBICA BARBA",
+            "total": 14,
+            "alDia": 8,
+            "media": 3,
+            "critica": 1
+          }
+        ],
+        "trazabilidad": [
+          {
+            "id": "cantidad",
+            "titulo": "SOLPED Cantidad",
+            "count": 159,
+            "filtro": "todas"
+          },
+          {
+            "id": "cotizados",
+            "titulo": "Cotizados",
+            "count": 42,
+            "filtro": "etapa:cotizados"
+          },
+          {
+            "id": "esperando",
+            "titulo": "Esperando cotizaci\u00F3n",
+            "count": 45,
+            "filtro": "etapa:esperando"
+          },
+          {
+            "id": "completo",
+            "titulo": "Completo",
+            "count": 30,
+            "filtro": "etapa:completo"
+          },
+          {
+            "id": "pedido",
+            "titulo": "Pedido generado",
+            "count": 46,
+            "filtro": "etapa:pedido"
+          }
+        ],
+        "sugerencias": [
+          "PATRICIA ALDAVES tiene 7 SOLPED cr\u00EDticas (22\u002B d\u00EDas). Priorizar seguimiento.",
+          "138 SOLPEDs agrupadas en 1 proveedor. Revisar licitaci\u00F3n.",
+          "9 SOLPEDs con contrato siguen pendientes. Correr pedido SAP.",
+          "Hay 45 SOLPEDs esperando cotizaci\u00F3n del proveedor."
+        ],
+        "criticas": [
+          {
+            "solped": "1000000052",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Completo",
+            "razon": "Gesti\u00F3n completa",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000666",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000667",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000668",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000669",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000670",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000671",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000672",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000673",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          }
+        ]
+      }
+    },
+    {
+      "LayoutId": "analisis-solped",
+      "FechaGrabacion": "2026-08-18",
+      "TipoEsquema": "tablero-completo",
+      "Esquema": {
+        "porRango": [
+          {
+            "rango": "01 - 07 dias",
+            "count": 87,
+            "edad": "ok"
+          },
+          {
+            "rango": "08 - 14 dias",
+            "count": 61,
+            "edad": "mid"
+          },
+          {
+            "rango": "15 - 21 dias",
+            "count": 10,
+            "edad": "bad"
+          },
+          {
+            "rango": "22 dias a mas",
+            "count": 1,
+            "edad": "bad"
+          }
+        ],
+        "compradores": [
+          {
+            "nombre": "ARIANA ALVAREZ",
+            "total": 63,
+            "alDia": 32,
+            "media": 20,
+            "critica": 0
+          },
+          {
+            "nombre": "PATRICIA ALDAVES",
+            "total": 47,
+            "alDia": 18,
+            "media": 16,
+            "critica": 7
+          },
+          {
+            "nombre": "FLAVIO CHUQUILLANQ",
+            "total": 45,
+            "alDia": 22,
+            "media": 12,
+            "critica": 1
+          },
+          {
+            "nombre": "LJUBICA BARBA",
+            "total": 14,
+            "alDia": 8,
+            "media": 3,
+            "critica": 1
+          }
+        ],
+        "trazabilidad": [
+          {
+            "id": "cantidad",
+            "titulo": "SOLPED Cantidad",
+            "count": 160,
+            "filtro": "todas"
+          },
+          {
+            "id": "cotizados",
+            "titulo": "Cotizados",
+            "count": 43,
+            "filtro": "etapa:cotizados"
+          },
+          {
+            "id": "esperando",
+            "titulo": "Esperando cotizaci\u00F3n",
+            "count": 46,
+            "filtro": "etapa:esperando"
+          },
+          {
+            "id": "completo",
+            "titulo": "Completo",
+            "count": 31,
+            "filtro": "etapa:completo"
+          },
+          {
+            "id": "pedido",
+            "titulo": "Pedido generado",
+            "count": 47,
+            "filtro": "etapa:pedido"
+          }
+        ],
+        "sugerencias": [
+          "PATRICIA ALDAVES tiene 7 SOLPED cr\u00EDticas (22\u002B d\u00EDas). Priorizar seguimiento.",
+          "138 SOLPEDs agrupadas en 1 proveedor. Revisar licitaci\u00F3n.",
+          "9 SOLPEDs con contrato siguen pendientes. Correr pedido SAP.",
+          "Hay 46 SOLPEDs esperando cotizaci\u00F3n del proveedor."
+        ],
+        "criticas": [
+          {
+            "solped": "1000000052",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Completo",
+            "razon": "Gesti\u00F3n completa",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000666",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000667",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000668",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000669",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000670",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000671",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000672",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000673",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000001404",
+            "comprador": "ARIANA ALVAREZ",
+            "etapa": "Cotizados",
+            "razon": "Cotizaci\u00F3n recibida",
+            "rango": "15 - 21 dias",
+            "proveedor": "MALLAS RESORTES \u0026 CABLES S.A.C."
+          }
+        ]
+      }
+    },
+    {
+      "LayoutId": "analisis-solped",
+      "FechaGrabacion": "2026-08-19",
+      "TipoEsquema": "tablero-completo",
+      "Esquema": {
+        "porRango": [
+          {
+            "rango": "01 - 07 dias",
+            "count": 88,
+            "edad": "ok"
+          },
+          {
+            "rango": "08 - 14 dias",
+            "count": 62,
+            "edad": "mid"
+          },
+          {
+            "rango": "15 - 21 dias",
+            "count": 11,
+            "edad": "bad"
+          },
+          {
+            "rango": "22 dias a mas",
+            "count": 1,
+            "edad": "bad"
+          }
+        ],
+        "compradores": [
+          {
+            "nombre": "ARIANA ALVAREZ",
+            "total": 64,
+            "alDia": 33,
+            "media": 20,
+            "critica": 0
+          },
+          {
+            "nombre": "PATRICIA ALDAVES",
+            "total": 48,
+            "alDia": 18,
+            "media": 17,
+            "critica": 8
+          },
+          {
+            "nombre": "FLAVIO CHUQUILLANQ",
+            "total": 46,
+            "alDia": 22,
+            "media": 12,
+            "critica": 2
+          },
+          {
+            "nombre": "LJUBICA BARBA",
+            "total": 15,
+            "alDia": 8,
+            "media": 3,
+            "critica": 1
+          }
+        ],
+        "trazabilidad": [
+          {
+            "id": "cantidad",
+            "titulo": "SOLPED Cantidad",
+            "count": 161,
+            "filtro": "todas"
+          },
+          {
+            "id": "cotizados",
+            "titulo": "Cotizados",
+            "count": 44,
+            "filtro": "etapa:cotizados"
+          },
+          {
+            "id": "esperando",
+            "titulo": "Esperando cotizaci\u00F3n",
+            "count": 47,
+            "filtro": "etapa:esperando"
+          },
+          {
+            "id": "completo",
+            "titulo": "Completo",
+            "count": 32,
+            "filtro": "etapa:completo"
+          },
+          {
+            "id": "pedido",
+            "titulo": "Pedido generado",
+            "count": 48,
+            "filtro": "etapa:pedido"
+          }
+        ],
+        "sugerencias": [
+          "PATRICIA ALDAVES tiene 8 SOLPED cr\u00EDticas (22\u002B d\u00EDas). Priorizar seguimiento.",
+          "138 SOLPEDs agrupadas en 1 proveedor. Revisar licitaci\u00F3n.",
+          "9 SOLPEDs con contrato siguen pendientes. Correr pedido SAP.",
+          "Hay 47 SOLPEDs esperando cotizaci\u00F3n del proveedor."
+        ],
+        "criticas": [
+          {
+            "solped": "1000000052",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Completo",
+            "razon": "Gesti\u00F3n completa",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000666",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000667",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000668",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000669",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000670",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000671",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000672",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000673",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000001404",
+            "comprador": "ARIANA ALVAREZ",
+            "etapa": "Cotizados",
+            "razon": "Cotizaci\u00F3n recibida",
+            "rango": "15 - 21 dias",
+            "proveedor": "MALLAS RESORTES \u0026 CABLES S.A.C."
+          }
+        ]
+      }
+    },
+    {
+      "LayoutId": "analisis-solped",
+      "FechaGrabacion": "2026-08-20",
+      "TipoEsquema": "tablero-completo",
+      "Esquema": {
+        "porRango": [
+          {
+            "rango": "01 - 07 dias",
+            "count": 89,
+            "edad": "ok"
+          },
+          {
+            "rango": "08 - 14 dias",
+            "count": 63,
+            "edad": "mid"
+          },
+          {
+            "rango": "15 - 21 dias",
+            "count": 12,
+            "edad": "bad"
+          },
+          {
+            "rango": "22 dias a mas",
+            "count": 1,
+            "edad": "bad"
+          }
+        ],
+        "compradores": [
+          {
+            "nombre": "ARIANA ALVAREZ",
+            "total": 65,
+            "alDia": 33,
+            "media": 20,
+            "critica": 0
+          },
+          {
+            "nombre": "PATRICIA ALDAVES",
+            "total": 49,
+            "alDia": 18,
+            "media": 17,
+            "critica": 8
+          },
+          {
+            "nombre": "FLAVIO CHUQUILLANQ",
+            "total": 47,
+            "alDia": 22,
+            "media": 12,
+            "critica": 3
+          },
+          {
+            "nombre": "LJUBICA BARBA",
+            "total": 15,
+            "alDia": 8,
+            "media": 3,
+            "critica": 1
+          }
+        ],
+        "trazabilidad": [
+          {
+            "id": "cantidad",
+            "titulo": "SOLPED Cantidad",
+            "count": 162,
+            "filtro": "todas"
+          },
+          {
+            "id": "cotizados",
+            "titulo": "Cotizados",
+            "count": 45,
+            "filtro": "etapa:cotizados"
+          },
+          {
+            "id": "esperando",
+            "titulo": "Esperando cotizaci\u00F3n",
+            "count": 48,
+            "filtro": "etapa:esperando"
+          },
+          {
+            "id": "completo",
+            "titulo": "Completo",
+            "count": 33,
+            "filtro": "etapa:completo"
+          },
+          {
+            "id": "pedido",
+            "titulo": "Pedido generado",
+            "count": 49,
+            "filtro": "etapa:pedido"
+          }
+        ],
+        "sugerencias": [
+          "PATRICIA ALDAVES tiene 8 SOLPED cr\u00EDticas (22\u002B d\u00EDas). Priorizar seguimiento.",
+          "138 SOLPEDs agrupadas en 1 proveedor. Revisar licitaci\u00F3n.",
+          "9 SOLPEDs con contrato siguen pendientes. Correr pedido SAP.",
+          "Hay 48 SOLPEDs esperando cotizaci\u00F3n del proveedor."
+        ],
+        "criticas": [
+          {
+            "solped": "1000000052",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Completo",
+            "razon": "Gesti\u00F3n completa",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000666",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000667",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000668",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000669",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000670",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000671",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000672",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000673",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000001404",
+            "comprador": "ARIANA ALVAREZ",
+            "etapa": "Cotizados",
+            "razon": "Cotizaci\u00F3n recibida",
+            "rango": "15 - 21 dias",
+            "proveedor": "MALLAS RESORTES \u0026 CABLES S.A.C."
+          }
+        ]
+      }
+    },
+    {
+      "LayoutId": "analisis-solped",
+      "FechaGrabacion": "2026-08-21",
+      "TipoEsquema": "tablero-completo",
+      "Esquema": {
+        "porRango": [
+          {
+            "rango": "01 - 07 dias",
+            "count": 90,
+            "edad": "ok"
+          },
+          {
+            "rango": "08 - 14 dias",
+            "count": 64,
+            "edad": "mid"
+          },
+          {
+            "rango": "15 - 21 dias",
+            "count": 13,
+            "edad": "bad"
+          },
+          {
+            "rango": "22 dias a mas",
+            "count": 2,
+            "edad": "bad"
+          }
+        ],
+        "compradores": [
+          {
+            "nombre": "ARIANA ALVAREZ",
+            "total": 66,
+            "alDia": 34,
+            "media": 20,
+            "critica": 1
+          },
+          {
+            "nombre": "PATRICIA ALDAVES",
+            "total": 50,
+            "alDia": 18,
+            "media": 17,
+            "critica": 9
+          },
+          {
+            "nombre": "FLAVIO CHUQUILLANQ",
+            "total": 48,
+            "alDia": 22,
+            "media": 12,
+            "critica": 4
+          },
+          {
+            "nombre": "LJUBICA BARBA",
+            "total": 16,
+            "alDia": 8,
+            "media": 3,
+            "critica": 1
+          }
+        ],
+        "trazabilidad": [
+          {
+            "id": "cantidad",
+            "titulo": "SOLPED Cantidad",
+            "count": 163,
+            "filtro": "todas"
+          },
+          {
+            "id": "cotizados",
+            "titulo": "Cotizados",
+            "count": 46,
+            "filtro": "etapa:cotizados"
+          },
+          {
+            "id": "esperando",
+            "titulo": "Esperando cotizaci\u00F3n",
+            "count": 49,
+            "filtro": "etapa:esperando"
+          },
+          {
+            "id": "completo",
+            "titulo": "Completo",
+            "count": 34,
+            "filtro": "etapa:completo"
+          },
+          {
+            "id": "pedido",
+            "titulo": "Pedido generado",
+            "count": 50,
+            "filtro": "etapa:pedido"
+          }
+        ],
+        "sugerencias": [
+          "PATRICIA ALDAVES tiene 9 SOLPED cr\u00EDticas (22\u002B d\u00EDas). Priorizar seguimiento.",
+          "138 SOLPEDs agrupadas en 1 proveedor. Revisar licitaci\u00F3n.",
+          "9 SOLPEDs con contrato siguen pendientes. Correr pedido SAP.",
+          "Hay 49 SOLPEDs esperando cotizaci\u00F3n del proveedor."
+        ],
+        "criticas": [
+          {
+            "solped": "1000000052",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "SOLPED pendiente",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000666",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000667",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000668",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000669",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000670",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000671",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000672",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000673",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000001404",
+            "comprador": "ARIANA ALVAREZ",
+            "etapa": "Cotizados",
+            "razon": "Cotizaci\u00F3n recibida",
+            "rango": "15 - 21 dias",
+            "proveedor": "MALLAS RESORTES \u0026 CABLES S.A.C."
+          }
+        ]
+      }
+    },
+    {
+      "LayoutId": "analisis-solped",
+      "FechaGrabacion": "2026-08-22",
+      "TipoEsquema": "tablero-completo",
+      "Esquema": {
+        "porRango": [
+          {
+            "rango": "01 - 07 dias",
+            "count": 91,
+            "edad": "ok"
+          },
+          {
+            "rango": "08 - 14 dias",
+            "count": 65,
+            "edad": "mid"
+          },
+          {
+            "rango": "15 - 21 dias",
+            "count": 14,
+            "edad": "bad"
+          },
+          {
+            "rango": "22 dias a mas",
+            "count": 3,
+            "edad": "bad"
+          }
+        ],
+        "compradores": [
+          {
+            "nombre": "ARIANA ALVAREZ",
+            "total": 67,
+            "alDia": 34,
+            "media": 20,
+            "critica": 2
+          },
+          {
+            "nombre": "PATRICIA ALDAVES",
+            "total": 51,
+            "alDia": 18,
+            "media": 18,
+            "critica": 9
+          },
+          {
+            "nombre": "FLAVIO CHUQUILLANQ",
+            "total": 49,
+            "alDia": 22,
+            "media": 12,
+            "critica": 5
+          },
+          {
+            "nombre": "LJUBICA BARBA",
+            "total": 16,
+            "alDia": 8,
+            "media": 3,
+            "critica": 1
+          }
+        ],
+        "trazabilidad": [
+          {
+            "id": "cantidad",
+            "titulo": "SOLPED Cantidad",
+            "count": 164,
+            "filtro": "todas"
+          },
+          {
+            "id": "cotizados",
+            "titulo": "Cotizados",
+            "count": 47,
+            "filtro": "etapa:cotizados"
+          },
+          {
+            "id": "esperando",
+            "titulo": "Esperando cotizaci\u00F3n",
+            "count": 50,
+            "filtro": "etapa:esperando"
+          },
+          {
+            "id": "completo",
+            "titulo": "Completo",
+            "count": 35,
+            "filtro": "etapa:completo"
+          },
+          {
+            "id": "pedido",
+            "titulo": "Pedido generado",
+            "count": 51,
+            "filtro": "etapa:pedido"
+          }
+        ],
+        "sugerencias": [
+          "PATRICIA ALDAVES tiene 9 SOLPED cr\u00EDticas (22\u002B d\u00EDas). Priorizar seguimiento.",
+          "138 SOLPEDs agrupadas en 1 proveedor. Revisar licitaci\u00F3n.",
+          "9 SOLPEDs con contrato siguen pendientes. Correr pedido SAP.",
+          "Hay 50 SOLPEDs esperando cotizaci\u00F3n del proveedor."
+        ],
+        "criticas": [
+          {
+            "solped": "1000000052",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "SOLPED pendiente",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000666",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000667",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000668",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000669",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000670",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000671",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000672",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000673",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000001404",
+            "comprador": "ARIANA ALVAREZ",
+            "etapa": "Cotizados",
+            "razon": "Cotizaci\u00F3n recibida",
+            "rango": "15 - 21 dias",
+            "proveedor": "MALLAS RESORTES \u0026 CABLES S.A.C."
+          }
+        ]
+      }
+    },
+    {
+      "LayoutId": "analisis-solped",
+      "FechaGrabacion": "2026-08-23",
+      "TipoEsquema": "tablero-completo",
+      "Esquema": {
+        "porRango": [
+          {
+            "rango": "01 - 07 dias",
+            "count": 92,
+            "edad": "ok"
+          },
+          {
+            "rango": "08 - 14 dias",
+            "count": 66,
+            "edad": "mid"
+          },
+          {
+            "rango": "15 - 21 dias",
+            "count": 15,
+            "edad": "bad"
+          },
+          {
+            "rango": "22 dias a mas",
+            "count": 4,
+            "edad": "bad"
+          }
+        ],
+        "compradores": [
+          {
+            "nombre": "ARIANA ALVAREZ",
+            "total": 68,
+            "alDia": 35,
+            "media": 20,
+            "critica": 3
+          },
+          {
+            "nombre": "PATRICIA ALDAVES",
+            "total": 52,
+            "alDia": 18,
+            "media": 18,
+            "critica": 9
+          },
+          {
+            "nombre": "FLAVIO CHUQUILLANQ",
+            "total": 50,
+            "alDia": 22,
+            "media": 12,
+            "critica": 6
+          },
+          {
+            "nombre": "LJUBICA BARBA",
+            "total": 17,
+            "alDia": 8,
+            "media": 3,
+            "critica": 1
+          }
+        ],
+        "trazabilidad": [
+          {
+            "id": "cantidad",
+            "titulo": "SOLPED Cantidad",
+            "count": 165,
+            "filtro": "todas"
+          },
+          {
+            "id": "cotizados",
+            "titulo": "Cotizados",
+            "count": 48,
+            "filtro": "etapa:cotizados"
+          },
+          {
+            "id": "esperando",
+            "titulo": "Esperando cotizaci\u00F3n",
+            "count": 51,
+            "filtro": "etapa:esperando"
+          },
+          {
+            "id": "completo",
+            "titulo": "Completo",
+            "count": 36,
+            "filtro": "etapa:completo"
+          },
+          {
+            "id": "pedido",
+            "titulo": "Pedido generado",
+            "count": 52,
+            "filtro": "etapa:pedido"
+          }
+        ],
+        "sugerencias": [
+          "PATRICIA ALDAVES tiene 9 SOLPED cr\u00EDticas (22\u002B d\u00EDas). Priorizar seguimiento.",
+          "138 SOLPEDs agrupadas en 1 proveedor. Revisar licitaci\u00F3n.",
+          "9 SOLPEDs con contrato siguen pendientes. Correr pedido SAP.",
+          "Hay 51 SOLPEDs esperando cotizaci\u00F3n del proveedor."
+        ],
+        "criticas": [
+          {
+            "solped": "1000000052",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "SOLPED pendiente",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000666",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000667",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000668",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000669",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000670",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000671",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000672",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000673",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000001404",
+            "comprador": "ARIANA ALVAREZ",
+            "etapa": "Cotizados",
+            "razon": "Cotizaci\u00F3n recibida",
+            "rango": "15 - 21 dias",
+            "proveedor": "MALLAS RESORTES \u0026 CABLES S.A.C."
+          },
+          {
+            "solped": "6000001405",
+            "comprador": "FLAVIO CHUQUILLANQ",
+            "etapa": "Pedido generado",
+            "razon": "Pedido generado",
+            "rango": "15 - 21 dias",
+            "proveedor": "IMPORTADORA SIHI CHILE LTDA.SUC.PER"
+          }
+        ]
+      }
+    },
+    {
+      "LayoutId": "analisis-solped",
+      "FechaGrabacion": "2026-08-24",
+      "TipoEsquema": "tablero-completo",
+      "Esquema": {
+        "porRango": [
+          {
+            "rango": "01 - 07 dias",
+            "count": 122,
+            "edad": "ok"
+          },
+          {
+            "rango": "08 - 14 dias",
+            "count": 47,
+            "edad": "mid"
+          },
+          {
+            "rango": "15 - 21 dias",
+            "count": 12,
+            "edad": "mid"
+          },
+          {
+            "rango": "22 dias a mas",
+            "count": 4,
+            "edad": "bad"
+          }
+        ],
+        "compradores": [
+          {
+            "nombre": "LJUBICA BARBA",
+            "total": 19,
+            "alDia": 13,
+            "media": 2,
+            "critica": 4
+          },
+          {
+            "nombre": "FLAVIO CHUQUILLANQ",
+            "total": 64,
+            "alDia": 51,
+            "media": 13,
+            "critica": 0
+          },
+          {
+            "nombre": "ARIANA ALVAREZ",
+            "total": 59,
+            "alDia": 30,
+            "media": 29,
+            "critica": 0
+          },
+          {
+            "nombre": "PATRICIA ALDAVES",
+            "total": 43,
+            "alDia": 28,
+            "media": 15,
+            "critica": 0
+          }
+        ],
+        "trazabilidad": [
+          {
+            "id": "cantidad",
+            "titulo": "SOLPED Cantidad",
+            "count": 185,
+            "filtro": "etapa:cantidad"
+          },
+          {
+            "id": "cotizados",
+            "titulo": "Cotizados",
+            "count": 125,
+            "filtro": "etapa:cotizados"
+          },
+          {
+            "id": "esperando",
+            "titulo": "Esperando cotizaci\u00F3n",
+            "count": 46,
+            "filtro": "etapa:esperando"
+          },
+          {
+            "id": "completo",
+            "titulo": "Completo",
+            "count": 49,
+            "filtro": "etapa:completo"
+          },
+          {
+            "id": "pedido",
+            "titulo": "Pedido generado",
+            "count": 11,
+            "filtro": "etapa:pedido"
+          }
+        ],
+        "sugerencias": [
+          "65% del USD est\u00E1 esperando al proveedor o al usuario, no al comprador.",
+          "LJUBICA BARBA tiene 4 SOLPEDs cr\u00EDticas (22\u002B d\u00EDas). Revisar qu\u00E9 las est\u00E1 trabando.",
+          "Hay 12 exclusivos de HIDROLAVADORAS NESINPER S.A.C.: un solo correo de cotizaci\u00F3n destrabar\u00EDa el lote.",
+          "Licitaci\u00F3n: 118 SOLPEDs se agrupan en 40 proveedores; priorizar Sin historial y CODELPA PERU SAC.",
+          "11 SOLPEDs con contrato siguen pendientes: deber\u00EDan salir como pedido autom\u00E1tico."
+        ],
+        "criticas": [
+          {
+            "solped": "1000000146",
+            "comprador": "LJUBICA BARBA",
+            "etapa": "Enviar a cotizar",
+            "razon": "Falta enviar la cotizaci\u00F3n",
+            "rango": "22 dias a mas",
+            "proveedor": "OXIDOS Y QUIMICOS DEL PERU S.A"
+          },
+          {
+            "solped": "1000000092",
+            "comprador": "LJUBICA BARBA",
+            "etapa": "Confirmar usuario",
+            "razon": "Pendiente confirmaci\u00F3n del usuario",
+            "rango": "22 dias a mas",
+            "proveedor": "TRANSPORTE DULCEMAR SOCIEDAD ANONIM"
+          },
+          {
+            "solped": "1000000092",
+            "comprador": "LJUBICA BARBA",
+            "etapa": "Esperando oferta",
+            "razon": "Esperando respuesta del proveedor",
+            "rango": "22 dias a mas",
+            "proveedor": "TRANSPORTE DULCEMAR SOCIEDAD ANONIM"
+          },
+          {
+            "solped": "1000000052",
+            "comprador": "LJUBICA BARBA",
+            "etapa": "Enviar a cotizar",
+            "razon": "Falta enviar la cotizaci\u00F3n",
+            "rango": "22 dias a mas",
+            "proveedor": "IBEROPLAST S.A.C."
+          }
+        ]
+      }
+    },
+    {
+      "LayoutId": "analisis-solped",
+      "FechaGrabacion": "2026-08-25",
+      "TipoEsquema": "tablero-completo",
+      "Esquema": {
+        "porRango": [
+          {
+            "rango": "01 - 07 dias",
+            "count": 122,
+            "edad": "ok"
+          },
+          {
+            "rango": "08 - 14 dias",
+            "count": 47,
+            "edad": "mid"
+          },
+          {
+            "rango": "15 - 21 dias",
+            "count": 12,
+            "edad": "mid"
+          },
+          {
+            "rango": "22 dias a mas",
+            "count": 4,
+            "edad": "bad"
+          }
+        ],
+        "compradores": [
+          {
+            "nombre": "LJUBICA BARBA",
+            "total": 19,
+            "alDia": 13,
+            "media": 2,
+            "critica": 4
+          },
+          {
+            "nombre": "FLAVIO CHUQUILLANQ",
+            "total": 64,
+            "alDia": 51,
+            "media": 13,
+            "critica": 0
+          },
+          {
+            "nombre": "ARIANA ALVAREZ",
+            "total": 59,
+            "alDia": 30,
+            "media": 29,
+            "critica": 0
+          },
+          {
+            "nombre": "PATRICIA ALDAVES",
+            "total": 43,
+            "alDia": 28,
+            "media": 15,
+            "critica": 0
+          }
+        ],
+        "trazabilidad": [
+          {
+            "id": "cantidad",
+            "titulo": "SOLPED Cantidad",
+            "count": 185,
+            "filtro": "etapa:cantidad"
+          },
+          {
+            "id": "cotizados",
+            "titulo": "Cotizados",
+            "count": 125,
+            "filtro": "etapa:cotizados"
+          },
+          {
+            "id": "esperando",
+            "titulo": "Esperando cotizaci\u00F3n",
+            "count": 46,
+            "filtro": "etapa:esperando"
+          },
+          {
+            "id": "completo",
+            "titulo": "Completo",
+            "count": 49,
+            "filtro": "etapa:completo"
+          },
+          {
+            "id": "pedido",
+            "titulo": "Pedido generado",
+            "count": 11,
+            "filtro": "etapa:pedido"
+          }
+        ],
+        "sugerencias": [
+          "65% del USD est\u00E1 esperando al proveedor o al usuario, no al comprador.",
+          "LJUBICA BARBA tiene 4 SOLPEDs cr\u00EDticas (22\u002B d\u00EDas). Revisar qu\u00E9 las est\u00E1 trabando.",
+          "Hay 12 exclusivos de HIDROLAVADORAS NESINPER S.A.C.: un solo correo de cotizaci\u00F3n destrabar\u00EDa el lote.",
+          "Licitaci\u00F3n: 118 SOLPEDs se agrupan en 40 proveedores; priorizar Sin historial y CODELPA PERU SAC.",
+          "11 SOLPEDs con contrato siguen pendientes: deber\u00EDan salir como pedido autom\u00E1tico."
+        ],
+        "criticas": [
+          {
+            "solped": "1000000146",
+            "comprador": "LJUBICA BARBA",
+            "etapa": "Enviar a cotizar",
+            "razon": "Falta enviar la cotizaci\u00F3n",
+            "rango": "22 dias a mas",
+            "proveedor": "OXIDOS Y QUIMICOS DEL PERU S.A"
+          },
+          {
+            "solped": "1000000092",
+            "comprador": "LJUBICA BARBA",
+            "etapa": "Confirmar usuario",
+            "razon": "Pendiente confirmaci\u00F3n del usuario",
+            "rango": "22 dias a mas",
+            "proveedor": "TRANSPORTE DULCEMAR SOCIEDAD ANONIM"
+          },
+          {
+            "solped": "1000000092",
+            "comprador": "LJUBICA BARBA",
+            "etapa": "Esperando oferta",
+            "razon": "Esperando respuesta del proveedor",
+            "rango": "22 dias a mas",
+            "proveedor": "TRANSPORTE DULCEMAR SOCIEDAD ANONIM"
+          },
+          {
+            "solped": "1000000052",
+            "comprador": "LJUBICA BARBA",
+            "etapa": "Enviar a cotizar",
+            "razon": "Falta enviar la cotizaci\u00F3n",
+            "rango": "22 dias a mas",
+            "proveedor": "IBEROPLAST S.A.C."
+          }
+        ]
+      }
+    }
+  ]
+}

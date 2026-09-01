@@ -1,0 +1,194 @@
+{
+  "Layouts": [
+    {
+      "Id": "analisis-solped",
+      "NombreLayout": "ANALISIS SOLPED",
+      "Prompt": "An\u00E1lisis general de SOLPED pendientes",
+      "TipoEsquema": "tablero-completo",
+      "FechaCreacion": "2026-08-13T08:00:00",
+      "FechaActualizacion": "2026-08-23T08:00:00",
+      "Esquema": {
+        "porRango": [
+          {
+            "rango": "01 - 07 dias",
+            "count": 92,
+            "edad": "ok"
+          },
+          {
+            "rango": "08 - 14 dias",
+            "count": 66,
+            "edad": "mid"
+          },
+          {
+            "rango": "15 - 21 dias",
+            "count": 15,
+            "edad": "bad"
+          },
+          {
+            "rango": "22 dias a mas",
+            "count": 4,
+            "edad": "bad"
+          }
+        ],
+        "compradores": [
+          {
+            "nombre": "ARIANA ALVAREZ",
+            "total": 68,
+            "alDia": 35,
+            "media": 20,
+            "critica": 3
+          },
+          {
+            "nombre": "PATRICIA ALDAVES",
+            "total": 52,
+            "alDia": 18,
+            "media": 18,
+            "critica": 9
+          },
+          {
+            "nombre": "FLAVIO CHUQUILLANQ",
+            "total": 50,
+            "alDia": 22,
+            "media": 12,
+            "critica": 6
+          },
+          {
+            "nombre": "LJUBICA BARBA",
+            "total": 17,
+            "alDia": 8,
+            "media": 3,
+            "critica": 1
+          }
+        ],
+        "trazabilidad": [
+          {
+            "id": "cantidad",
+            "titulo": "SOLPED Cantidad",
+            "count": 165,
+            "filtro": "todas"
+          },
+          {
+            "id": "cotizados",
+            "titulo": "Cotizados",
+            "count": 48,
+            "filtro": "etapa:cotizados"
+          },
+          {
+            "id": "esperando",
+            "titulo": "Esperando cotizaci\u00F3n",
+            "count": 51,
+            "filtro": "etapa:esperando"
+          },
+          {
+            "id": "completo",
+            "titulo": "Completo",
+            "count": 36,
+            "filtro": "etapa:completo"
+          },
+          {
+            "id": "pedido",
+            "titulo": "Pedido generado",
+            "count": 52,
+            "filtro": "etapa:pedido"
+          }
+        ],
+        "sugerencias": [
+          "PATRICIA ALDAVES tiene 9 SOLPED cr\u00EDticas (22\u002B d\u00EDas). Priorizar seguimiento.",
+          "138 SOLPEDs agrupadas en 1 proveedor. Revisar licitaci\u00F3n.",
+          "9 SOLPEDs con contrato siguen pendientes. Correr pedido SAP.",
+          "Hay 51 SOLPEDs esperando cotizaci\u00F3n del proveedor."
+        ],
+        "criticas": [
+          {
+            "solped": "1000000052",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "SOLPED pendiente",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000666",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000667",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000668",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000669",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000670",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000671",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000672",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000000673",
+            "comprador": "PATRICIA ALDAVES",
+            "etapa": "Esperando cotizaci\u00F3n",
+            "razon": "Reposici\u00F3n MRP: validar stock vs cantidad",
+            "rango": "22 dias a mas",
+            "proveedor": "\u2014"
+          },
+          {
+            "solped": "6000001404",
+            "comprador": "ARIANA ALVAREZ",
+            "etapa": "Cotizados",
+            "razon": "Cotizaci\u00F3n recibida",
+            "rango": "15 - 21 dias",
+            "proveedor": "MALLAS RESORTES \u0026 CABLES S.A.C."
+          },
+          {
+            "solped": "6000001405",
+            "comprador": "FLAVIO CHUQUILLANQ",
+            "etapa": "Pedido generado",
+            "razon": "Pedido generado",
+            "rango": "15 - 21 dias",
+            "proveedor": "IMPORTADORA SIHI CHILE LTDA.SUC.PER"
+          }
+        ]
+      }
+    }
+  ]
+}

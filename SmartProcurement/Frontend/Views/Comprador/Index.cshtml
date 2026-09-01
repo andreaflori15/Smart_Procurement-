@@ -1,0 +1,62 @@
+@{
+    ViewData["Title"] = "Comprador";
+    ViewData["Subtitle"] = "Filtra por comprador, mira pendientes y clasifícalos para tratarlos.";
+}
+
+<div class="panel" id="pasoFiltro">
+    <p class="hint">Primero elige el comprador. Después verás solo sus SOLPEDs pendientes y podrás clasificarlas.</p>
+    <label for="selComprador">Comprador</label>
+    <div class="actions">
+        <select id="selComprador" aria-label="Comprador">
+            <option value="">Cargando…</option>
+        </select>
+        <button type="button" class="btn btn-ok" id="btnPendientes">Ver pendientes</button>
+        <button type="button" class="btn" id="btnSolicitudes">Ver Solicitudes de cotización</button>
+        <span class="meta" id="estadoFiltro"></span>
+    </div>
+</div>
+
+<div class="panel is-hidden" id="pasoPendientes" style="margin-top:16px;">
+    <p class="hint" id="hintPendientes">Pendientes de este comprador, todavía sin pedido.</p>
+    <div class="actions">
+        <button type="button" class="btn" id="btnClasificar">Clasificar</button>
+        <span class="meta" id="estadoPendientes"></span>
+    </div>
+    <div id="wrapPendientes">
+        <table>
+            <thead>
+                <tr><th>Listado</th></tr>
+            </thead>
+            <tbody id="tablaPendientes">
+                <tr>
+                    <td class="empty">Elige un comprador y pulsa Ver pendientes.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="panel is-hidden" id="pasoSolicitudes" style="margin-top:16px;">
+    <div class="actions" style="margin-bottom:12px;">
+        <button type="button" class="btn btn-ghost" id="btnVolverSolicitudes">Volver</button>
+        <span class="meta" id="estadoSolicitudes"></span>
+    </div>
+    <p class="hint" id="hintSolicitudes">Solicitudes de cotización del comprador seleccionado.</p>
+    <div id="listaSolicitudes"></div>
+    <div id="detalleSolicitud" class="is-hidden" style="margin-top:16px;"></div>
+</div>
+
+<div class="panel is-hidden" id="pasoClasificado" style="margin-top:16px;">
+    <div class="actions" style="margin-bottom:12px;">
+        <button type="button" class="btn btn-ghost" id="btnVolver">Volver a pendientes</button>
+        <span class="meta" id="estadoClasificado"></span>
+    </div>
+    <div class="cubetas" id="cubetas" role="tablist" aria-label="Clasificación"></div>
+    <div class="banner-tratamiento" id="bannerTratamiento"></div>
+    <div class="chips" id="filtroEstado"></div>
+    <div id="vistaClasificada"></div>
+</div>
+
+@section Scripts {
+    <script src="~/js/comprador.js" asp-append-version="true"></script>
+}

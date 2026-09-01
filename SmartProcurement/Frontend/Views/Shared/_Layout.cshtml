@@ -1,0 +1,72 @@
+@{
+    var ctrl = ViewContext.RouteData.Values["controller"]?.ToString() ?? "";
+    string Nav(string name) => string.Equals(ctrl, name, StringComparison.OrdinalIgnoreCase) ? "is-active" : "";
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] · SmartProcurement</title>
+    <link rel="stylesheet" href="~/css/app.css" asp-append-version="true" />
+</head>
+<body>
+    <a class="skip" href="#contenido">Saltar al contenido</a>
+    <div class="app">
+        <aside class="sidebar" id="sidebar">
+            <a class="brand" asp-controller="Home" asp-action="Index">
+                <div class="brand-mark">SP</div>
+                <div>
+                    <strong>SmartProcurement</strong>
+                    <span>Módulo de cotización</span>
+                </div>
+            </a>
+
+            <div class="nav-label">Hoy</div>
+            <nav class="nav" aria-label="Principal">
+                <a asp-controller="Home" asp-action="Index" class="@Nav("Home")">
+                    Inicio
+                    <small>Módulo de cotización</small>
+                </a>
+                <a asp-controller="Consulta" asp-action="Index" class="@Nav("Consulta")">
+                    Consultar
+                    <small>SOLPED, pedido o proveedor</small>
+                </a>
+                <a asp-controller="Comprador" asp-action="Index" class="@Nav("Comprador")">
+                    Comprador
+                    <small>Pendientes por atender</small>
+                </a>
+                <a asp-controller="JefeCompra" asp-action="Index" class="@Nav("JefeCompra")">
+                    Jefe de compra
+                    <small>Tablero del equipo</small>
+                </a>
+            </nav>
+
+            <div class="sidebar-foot">Versión amigable · 2026</div>
+        </aside>
+
+        <div class="shell">
+            <header class="topbar">
+                <div>
+                    <button class="menu-btn" type="button" id="btnMenu" aria-controls="sidebar">Menú</button>
+                    <h1>@ViewData["Title"]</h1>
+                    @if (ViewData["Subtitle"] is string sub)
+                    {
+                        <p>@sub</p>
+                    }
+                </div>
+            </header>
+
+            <main id="contenido" class="content">
+                @RenderBody()
+            </main>
+
+            <footer class="foot">SmartProcurement · replica del portal original, con una interfaz más clara.</footer>
+        </div>
+    </div>
+
+    <div id="toast" class="toast" role="status"></div>
+    <script src="~/js/app.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

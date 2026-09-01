@@ -1,0 +1,125 @@
+@{
+    ViewData["Title"] = "Jefe de compra";
+    ViewData["Subtitle"] = "Resumen, trazabilidad y seguimiento del equipo.";
+}
+
+<div class="dash">
+    <div class="layout-bar panel">
+        <div class="layout-bar-row">
+            <label for="layoutSelect">Layout</label>
+            <select id="layoutSelect">
+                <option value="">— Tablero en vivo —</option>
+            </select>
+            <div class="dash-tabs dash-tabs-in-panel">
+                <button type="button" class="dash-tab is-on" data-tab="tablero" id="tabTablero">Tablero</button>
+                <button type="button" class="dash-tab is-hidden" data-tab="historial" id="tabHistorial">Historial</button>
+            </div>
+            <button type="button" class="btn btn-ghost is-hidden" id="btnGrabarHistorial" disabled>Grabar Historial</button>
+        </div>
+        <div class="layout-chips" id="layoutChips"></div>
+    </div>
+
+    <div id="vistaTablero">
+        <div class="ask">
+            <input id="askInput" type="text" placeholder="Pregúntale al tablero: ¿qué tiene Ariana trabado más de 14 días?" />
+            <div class="ask-actions-col">
+                <button type="button" class="btn" id="btnAsk">Preguntar</button>
+                <button type="button" class="btn btn-ghost" id="btnGrabarLayout">Grabar Layout</button>
+                <button type="button" class="btn btn-ghost is-hidden" id="btnLimpiar">Limpiar</button>
+            </div>
+        </div>
+        <div class="ask-chips" id="askChips"></div>
+        <div class="ask-box is-hidden" id="askBox">
+            <p id="askRespuesta"></p>
+            <div id="askTabla"></div>
+        </div>
+
+        <div class="kpis" id="kpis"></div>
+
+        <div class="panel">
+            <h3 class="dash-title">Trazabilidad</h3>
+            <p class="dash-legend">Dónde se quedó cada SOLPED. Pulsa una etapa.</p>
+            <div class="embudo" id="embudo"></div>
+        </div>
+
+        <div class="dash-grid">
+            <div class="panel">
+                <h3 class="dash-title">Por qué no se atiende</h3>
+                <p class="dash-legend">Razones resumidas (dato simulado)</p>
+                <div id="barrasRazones"></div>
+            </div>
+            <div class="panel">
+                <h3 class="dash-title">Pendientes por comprador</h3>
+                <p class="dash-legend">Verde al día · ámbar 8–21 · rojo 22+</p>
+                <div id="barrasComprador"></div>
+            </div>
+        </div>
+
+        <div class="panel panel-sugerencias">
+            <h3 class="dash-title">Qué conviene hacer hoy</h3>
+            <ul class="sugerencias" id="sugerencias">
+                <li>Armando el tablero…</li>
+            </ul>
+        </div>
+
+        <div class="dash-grid">
+            <div class="panel">
+                <h3 class="dash-title">Críticas (22+ días)</h3>
+                <p class="dash-legend">Las que más urgen</p>
+                <div id="wrapCriticas"></div>
+            </div>
+            <div class="panel">
+                <h3 class="dash-title">Licitación por proveedor</h3>
+                <p class="dash-legend">Agrupadas para cotizar juntas</p>
+                <div id="barrasLicitacion"></div>
+            </div>
+        </div>
+
+        <div class="panel is-hidden" id="pasoDetalle">
+            <h3 class="dash-title" id="tituloDetalle">Detalle</h3>
+            <p class="dash-legend" id="trazaHint"></p>
+            <div id="wrapDetalle"></div>
+        </div>
+    </div>
+
+    <div id="vistaHistorial" class="is-hidden">
+        <div class="panel historial-panel">
+            <h3 class="dash-title">Historial del layout</h3>
+            <p class="dash-legend" id="historialLeyenda">Selecciona un día con snapshot.</p>
+            <div class="cal-wrap">
+                <div class="cal-nav">
+                    <button type="button" class="btn btn-ghost btn-sm" id="calPrev" aria-label="Mes anterior">‹</button>
+                    <strong id="calTitulo"></strong>
+                    <button type="button" class="btn btn-ghost btn-sm" id="calNext" aria-label="Mes siguiente">›</button>
+                </div>
+                <div class="cal-grid" id="calGrid"></div>
+            </div>
+        </div>
+        <div class="panel is-hidden" id="historialSnapshot">
+            <h3 class="dash-title" id="historialSnapshotTitulo">Snapshot</h3>
+            <div class="kpis" id="kpisHist"></div>
+            <div class="panel">
+                <h3 class="dash-title">Trazabilidad</h3>
+                <div class="embudo" id="embudoHist"></div>
+            </div>
+            <div class="dash-grid">
+                <div class="panel">
+                    <h3 class="dash-title">Pendientes por comprador</h3>
+                    <div id="barrasCompradorHist"></div>
+                </div>
+                <div class="panel">
+                    <h3 class="dash-title">Críticas (22+ días)</h3>
+                    <div id="wrapCriticasHist"></div>
+                </div>
+            </div>
+            <div class="panel panel-sugerencias">
+                <h3 class="dash-title">Qué conviene hacer hoy</h3>
+                <ul class="sugerencias" id="sugerenciasHist"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/jefe-compra.js" asp-append-version="true"></script>
+}
